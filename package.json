@@ -1,0 +1,16 @@
+{
+  "name": "app-webpack",
+  "version": "1.0.0",
+  "description": "teste com webpack",
+  "main": "index.js",
+  "scripts": {
+    "dev":"webpack --mode development --watch",
+    "build":"webpack --mode production"
+  },
+  "author": "Marcos Vinicius Souza Tavares",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
